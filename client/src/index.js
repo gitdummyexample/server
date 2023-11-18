@@ -5,9 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+let PORT;
+PORT = process.env.REACT_APP_SERVER_PORT;
 root.render(
     <React.StrictMode>
-        <App />
+        <App server_port ={PORT} />
     </React.StrictMode>
 );
 
