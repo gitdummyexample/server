@@ -26,6 +26,9 @@ source ./emsdk_env.sh
 ## Outputs
 This calculation result will be displayed in the page.
 
+## Run tests under DEMO
+Go to demo folder run "node dilation.js", "node templateMatching.js", the output image will be generate in "test-output" folder.
+
 ## Versions
 
 | Version | Major changes |
